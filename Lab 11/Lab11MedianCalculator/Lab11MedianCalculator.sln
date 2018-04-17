@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lab11MedianCalculator", "Lab11MedianCalculator\Lab11MedianCalculator.vbproj", "{90E49729-EFE5-4107-83E1-E1740580E04F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90E49729-EFE5-4107-83E1-E1740580E04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E49729-EFE5-4107-83E1-E1740580E04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E49729-EFE5-4107-83E1-E1740580E04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E49729-EFE5-4107-83E1-E1740580E04F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {639DDAC6-F035-4049-B912-0074F2DC8022}
+	EndGlobalSection
+EndGlobal
