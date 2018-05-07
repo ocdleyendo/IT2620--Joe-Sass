@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmEmployeeDataPart1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -26,7 +26,7 @@ Partial Class Form1
         Me.btnClearData = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.cmboboxDepartment = New System.Windows.Forms.ComboBox()
+        Me.cboDepartment = New System.Windows.Forms.ComboBox()
         Me.txtEmailAddress = New System.Windows.Forms.TextBox()
         Me.txtExtension = New System.Windows.Forms.TextBox()
         Me.txtTelephone = New System.Windows.Forms.TextBox()
@@ -74,7 +74,7 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.cmboboxDepartment)
+        Me.GroupBox1.Controls.Add(Me.cboDepartment)
         Me.GroupBox1.Controls.Add(Me.txtEmailAddress)
         Me.GroupBox1.Controls.Add(Me.txtExtension)
         Me.GroupBox1.Controls.Add(Me.txtTelephone)
@@ -97,15 +97,15 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Enter Employee Data"
         '
-        'cmboboxDepartment
+        'cboDepartment
         '
-        Me.cmboboxDepartment.AllowDrop = True
-        Me.cmboboxDepartment.FormattingEnabled = True
-        Me.cmboboxDepartment.Items.AddRange(New Object() {"Accounting", "Administration", "Marketing", "MIS", "Sales"})
-        Me.cmboboxDepartment.Location = New System.Drawing.Point(179, 181)
-        Me.cmboboxDepartment.Name = "cmboboxDepartment"
-        Me.cmboboxDepartment.Size = New System.Drawing.Size(121, 21)
-        Me.cmboboxDepartment.TabIndex = 5
+        Me.cboDepartment.AllowDrop = True
+        Me.cboDepartment.FormattingEnabled = True
+        Me.cboDepartment.Items.AddRange(New Object() {"Accounting", "Administration", "Marketing", "MIS", "Sales"})
+        Me.cboDepartment.Location = New System.Drawing.Point(179, 181)
+        Me.cboDepartment.Name = "cboDepartment"
+        Me.cboDepartment.Size = New System.Drawing.Size(121, 21)
+        Me.cboDepartment.TabIndex = 5
         '
         'txtEmailAddress
         '
@@ -228,7 +228,7 @@ Partial Class Form1
         Me.txtFirstName.Size = New System.Drawing.Size(121, 20)
         Me.txtFirstName.TabIndex = 1
         '
-        'Form1
+        'frmEmployeeDataPart1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -237,7 +237,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClearData)
         Me.Controls.Add(Me.btnSave)
-        Me.Name = "Form1"
+        Me.Name = "frmEmployeeDataPart1"
         Me.Text = "Employee Data"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -249,7 +249,7 @@ Partial Class Form1
     Friend WithEvents btnClearData As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents cmboboxDepartment As ComboBox
+    Friend WithEvents cboDepartment As ComboBox
     Friend WithEvents txtEmailAddress As TextBox
     Friend WithEvents txtExtension As TextBox
     Friend WithEvents txtTelephone As TextBox
